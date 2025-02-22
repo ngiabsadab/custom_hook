@@ -1,15 +1,14 @@
 import React from "react";
 import UseFetch from "./UseFetch";
-import "./FetchData.css";
 
-const FetchData = () => {
-  const [data] = UseFetch("https://api.npoint.io/9045c260b1565daa9e15");
-  // console.log(data);
-
+const FetchYogaData = () => {
+  console.log("FetchYogaData");
+  const [data] = UseFetch("https://api.npoint.io/4459a9a10e43812e1152");
+  console.log(data);
   return (
     <>
       <ul className="list_data_main">
-        <h1 className="usefetch_heading">Use Fetch Custom Hook</h1>
+        <h1 className="usefetch_heading">Use Fetch Custom Hook Yoga</h1>
         {data &&
           data.map((item) => (
             <li key={item.id} className="list_data">
@@ -32,5 +31,4 @@ const FetchData = () => {
     </>
   );
 };
-
-export default FetchData;
+export default FetchYogaData;
