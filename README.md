@@ -2,7 +2,7 @@
 
 On the Terminal
 ```
-git clone ...repo-url
+git clone https://github.com/ngiabsadab/custom_hook.git
 ```
 
 Write the command to enter the custom_hook folder in the terminal. Use the below command to navigate to the custom_hook folder in the terminal.
